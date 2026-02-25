@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
     public static void checkEligibilty(int age) throws IllegalArgumentException{
         if(age<18){
-            throw new IllegalArgumentException("Age is be 18 or above");
+            throw new IllegalArgumentException("Age is be 18 or above!.");
         }else{
             System.out.println("Voter is eligible for voting.");
         }
