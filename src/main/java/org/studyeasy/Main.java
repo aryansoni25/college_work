@@ -15,7 +15,7 @@ public class Main {
             int age=sc.nextInt();
             checkEligibilty(age);
         }catch(IllegalArgumentException e){
-            System.out.println("caught exception !!"+e.getMessage());
+            System.out.println("caught exception !! "+e.getMessage());
         }
     }
 }
