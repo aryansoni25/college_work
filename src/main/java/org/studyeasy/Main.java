@@ -5,7 +5,7 @@ public class Main {
         if(age<18){
             throw new IllegalArgumentException("Age is be 18 or above");
         }else{
-            System.out.println("Voter is eligible for voting");
+            System.out.println("Voter is eligible for voting.");
         }
     }
     public static void main(String[] args) {
